@@ -39,5 +39,6 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
+          # This uses your Secret Username and the Repo name you just created
           docker build -t ${{ secrets.DOCKER_USERNAME }}/basic_check_ci-cd:latest .
           docker push ${{ secrets.DOCKER_USERNAME }}/basic_check_ci-cd:latest
