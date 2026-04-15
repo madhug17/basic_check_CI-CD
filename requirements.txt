@@ -1,0 +1,3 @@
+pytest
+flask  # (or whatever framework you are using)
+httpx
