@@ -8,7 +8,7 @@ def multiply(a, b):
 
 @app.route('/')
 def home():
-    result = multiply(2, 3)
+    result = multiply(143,1)
     return f"<h1>MLOps Pipeline Success!</h1><p>The multiplication of 2 and 3 is: {result}</p>"
 
 if __name__ == "__main__":
