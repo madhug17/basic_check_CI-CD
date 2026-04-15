@@ -39,5 +39,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/basic_check_ci-cd:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/basic_check_ci-cd:latest
+          docker build -t madhug17/basic_check_ci-cd:latest .
+          docker push madhug17/basic_check_ci-cd:latest
